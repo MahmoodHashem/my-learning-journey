@@ -1,6 +1,4 @@
 ---
-title: Welcome to Quartz
+title: Hey, What's up ?
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This Mahmood Hashemi from Afghanistan. 
