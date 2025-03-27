@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "MrXcrypt",
+    pageTitle: "My Learning Journey",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -25,37 +25,26 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#928374",
-          tertiary: "#a89984",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#f8fafc",         // Very light blue-tinted white
+          lightgray: "#e2e8f0",     // Light blue-gray
+          gray: "#94a3b8",          // Medium blue-gray
+          darkgray: "#475569",      // Darker blue-gray
+          dark: "#1e293b",          // Very dark blue
+          secondary: "#3b82f6",     // Vibrant blue
+          tertiary: "#60a5fa",      // Lighter blue
+          highlight: "rgba(59, 130, 246, 0.15)", // Transparent blue highlight
+          textHighlight: "#3b82f688", // Semi-transparent blue text highlight
         },
-        // darkMode: {
-        //   light: "#2b2b2b",
-        //   lightgray: "#393639",
-        //   gray: "#646464",
-        //   darkgray: "#d4d4d4",
-        //   dark: "#F2E5BC",
-        //   secondary: "#928374",
-        //   tertiary: "#a89984",
-        //   highlight: "rgba(143, 159, 169, 0.15)",
-        //   textHighlight: "#7b6e1b",
-        // },
         darkMode: {
-          light: "#373534",        // Darker background for better contrast  
-          lightgray: "#494745",    // Subtle contrast for UI elements  
-          gray: "#8d8d8d",         // Medium gray for secondary elements  
-          darkgray: "#d4d4d4",     // Well-balanced gray for subtext and secondary text  
-          dark: "#fcf2d8",         // Warm beige for main text (readable but not harsh)  
-          secondary: "#feb976",    // Muted golden-yellow for buttons and accents  
-          tertiary: "#bb8a3e",     // Darker gold for subheadings (less bright)  
-          highlight: "rgba(131, 165, 152, 0.3)",  // Soft teal-green for background highlights  
-          textHighlight: "#7b6e1b", // Muted teal-blue for text highlights (clear contrast with white text)  
+          light: "#0f172a",         // Dark navy blue background
+          lightgray: "#1e293b",     // Slightly lighter navy
+          gray: "#64748b",          // Medium blue-gray
+          darkgray: "#cbd5e1",      // Light blue-gray
+          dark: "#f1f5f9",          // Off-white with blue tint
+          secondary: "#60a5fa",     // Bright blue accent
+          tertiary: "#93c5fd",      // Lighter blue accent
+          highlight: "rgba(96, 165, 250, 0.2)", // Soft blue highlight
+          textHighlight: "#3b82f6",  // Blue text highlight
         }
       },
     },
